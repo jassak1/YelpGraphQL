@@ -1,0 +1,16 @@
+query France{
+  search(location: "France"){
+    business{
+      id
+      name
+      rating
+      review_count
+      photos
+      url
+      coordinates{
+        latitude
+        longitude
+      }
+    }
+  }
+}

@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A01C31C279D8AB0001C64E5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A01C31B279D8AB0001C64E5 /* DetailView.swift */; };
+		9A45A329279D74CD00087758 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A328279D74CD00087758 /* CardView.swift */; };
+		9A45A32E279D7DCD00087758 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45A32D279D7DCD00087758 /* Entity.swift */; };
+		9ABD3AAA279DA50400B9098B /* ImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD3AA9279DA50400B9098B /* ImageAsync.swift */; };
+		9ABD3AAC279DA9A900B9098B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD3AAB279DA9A900B9098B /* WebView.swift */; };
+		9ABD3AB3279DC5CB00B9098B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD3AB2279DC5CB00B9098B /* API.swift */; };
+		9AF349AE279C3F8A00F5A27D /* Yelp_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF349AD279C3F8A00F5A27D /* Yelp_GraphQLApp.swift */; };
+		9AF349B0279C3F8A00F5A27D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF349AF279C3F8A00F5A27D /* ContentView.swift */; };
+		9AF349B2279C3F8B00F5A27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF349B1279C3F8B00F5A27D /* Assets.xcassets */; };
+		9AF349B5279C3F8B00F5A27D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF349B4279C3F8B00F5A27D /* Preview Assets.xcassets */; };
+		9AF349BF279C44E900F5A27D /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF349BE279C44E900F5A27D /* Apollo.swift */; };
+		9AF349C1279C450200F5A27D /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9AF349C0279C450200F5A27D /* Queries.graphql */; };
+		9AF349C7279C4A4C00F5A27D /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF349C6279C4A4C00F5A27D /* Apollo */; };
+		9AF349C9279C4A4C00F5A27D /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF349C8279C4A4C00F5A27D /* ApolloCodegenLib */; };
+		9AF349CB279C4A4C00F5A27D /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF349CA279C4A4C00F5A27D /* ApolloSQLite */; };
+		9AF349CD279C4A4C00F5A27D /* ApolloUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF349CC279C4A4C00F5A27D /* ApolloUtils */; };
+		9AF349CF279C4A4C00F5A27D /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 9AF349CE279C4A4C00F5A27D /* ApolloWebSocket */; };
+		9AFB3294279C4DED003DA81F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB3293279C4DED003DA81F /* schema.json */; };
+		9AFB3299279C8684003DA81F /* SharedFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB3298279C8684003DA81F /* SharedFiles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A01C31B279D8AB0001C64E5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9A45A328279D74CD00087758 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9A45A32D279D7DCD00087758 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		9ABD3AA9279DA50400B9098B /* ImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsync.swift; sourceTree = "<group>"; };
+		9ABD3AAB279DA9A900B9098B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9ABD3AAD279DB0A400B9098B /* Yelp-GraphQL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Yelp-GraphQL-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9ABD3AB2279DC5CB00B9098B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = Yelp_GraphQL/API.swift; sourceTree = SOURCE_ROOT; };
+		9AF349AA279C3F8A00F5A27D /* Yelp_GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp_GraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF349AD279C3F8A00F5A27D /* Yelp_GraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_GraphQLApp.swift; sourceTree = "<group>"; };
+		9AF349AF279C3F8A00F5A27D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AF349B1279C3F8B00F5A27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF349B4279C3F8B00F5A27D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AF349BE279C44E900F5A27D /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		9AF349C0279C450200F5A27D /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		9AFB3293279C4DED003DA81F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		9AFB3298279C8684003DA81F /* SharedFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFiles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF349A7279C3F8A00F5A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF349C7279C4A4C00F5A27D /* Apollo in Frameworks */,
+				9AF349C9279C4A4C00F5A27D /* ApolloCodegenLib in Frameworks */,
+				9AF349CF279C4A4C00F5A27D /* ApolloWebSocket in Frameworks */,
+				9AF349CB279C4A4C00F5A27D /* ApolloSQLite in Frameworks */,
+				9AF349CD279C4A4C00F5A27D /* ApolloUtils in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A45A32C279D7D6C00087758 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A45A32D279D7DCD00087758 /* Entity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AF349A1279C3F8A00F5A27D = {
+			isa = PBXGroup;
+			children = (
+				9AF349AC279C3F8A00F5A27D /* Yelp_GraphQL */,
+				9AF349AB279C3F8A00F5A27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF349AB279C3F8A00F5A27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF349AA279C3F8A00F5A27D /* Yelp_GraphQL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF349AC279C3F8A00F5A27D /* Yelp_GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				9ABD3AAD279DB0A400B9098B /* Yelp-GraphQL-Info.plist */,
+				9AFB3293279C4DED003DA81F /* schema.json */,
+				9AF349AD279C3F8A00F5A27D /* Yelp_GraphQLApp.swift */,
+				9A45A32C279D7D6C00087758 /* Model */,
+				9AF349BD279C44BF00F5A27D /* GraphQL */,
+				9AF349BC279C40F700F5A27D /* ViewModel */,
+				9AF349BB279C40E400F5A27D /* View */,
+				9AF349B1279C3F8B00F5A27D /* Assets.xcassets */,
+				9AF349B3279C3F8B00F5A27D /* Preview Content */,
+			);
+			path = Yelp_GraphQL;
+			sourceTree = "<group>";
+		};
+		9AF349B3279C3F8B00F5A27D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AF349B4279C3F8B00F5A27D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AF349BB279C40E400F5A27D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AF349AF279C3F8A00F5A27D /* ContentView.swift */,
+				9A45A328279D74CD00087758 /* CardView.swift */,
+				9A01C31B279D8AB0001C64E5 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AF349BC279C40F700F5A27D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9AFB3298279C8684003DA81F /* SharedFiles.swift */,
+				9ABD3AA9279DA50400B9098B /* ImageAsync.swift */,
+				9ABD3AAB279DA9A900B9098B /* WebView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9AF349BD279C44BF00F5A27D /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				9ABD3AB2279DC5CB00B9098B /* API.swift */,
+				9AF349BE279C44E900F5A27D /* Apollo.swift */,
+				9AF349C0279C450200F5A27D /* Queries.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF349A9279C3F8A00F5A27D /* Yelp_GraphQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF349B8279C3F8B00F5A27D /* Build configuration list for PBXNativeTarget "Yelp_GraphQL" */;
+			buildPhases = (
+				9AFB3295279C4FD0003DA81F /* Generate Apollo GraphQL API */,
+				9AF349A6279C3F8A00F5A27D /* Sources */,
+				9AF349A7279C3F8A00F5A27D /* Frameworks */,
+				9AF349A8279C3F8A00F5A27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yelp_GraphQL;
+			packageProductDependencies = (
+				9AF349C6279C4A4C00F5A27D /* Apollo */,
+				9AF349C8279C4A4C00F5A27D /* ApolloCodegenLib */,
+				9AF349CA279C4A4C00F5A27D /* ApolloSQLite */,
+				9AF349CC279C4A4C00F5A27D /* ApolloUtils */,
+				9AF349CE279C4A4C00F5A27D /* ApolloWebSocket */,
+			);
+			productName = Yelp_GraphQL;
+			productReference = 9AF349AA279C3F8A00F5A27D /* Yelp_GraphQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF349A2279C3F8A00F5A27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9AF349A9279C3F8A00F5A27D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AF349A5279C3F8A00F5A27D /* Build configuration list for PBXProject "Yelp_GraphQL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF349A1279C3F8A00F5A27D;
+			packageReferences = (
+				9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 9AF349AB279C3F8A00F5A27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF349A9279C3F8A00F5A27D /* Yelp_GraphQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF349A8279C3F8A00F5A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFB3294279C4DED003DA81F /* schema.json in Resources */,
+				9AF349C1279C450200F5A27D /* Queries.graphql in Resources */,
+				9AF349B5279C3F8B00F5A27D /* Preview Assets.xcassets in Resources */,
+				9AF349B2279C3F8B00F5A27D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AFB3295279C4FD0003DA81F /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF349A6279C3F8A00F5A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF349B0279C3F8A00F5A27D /* ContentView.swift in Sources */,
+				9ABD3AAC279DA9A900B9098B /* WebView.swift in Sources */,
+				9A01C31C279D8AB0001C64E5 /* DetailView.swift in Sources */,
+				9ABD3AAA279DA50400B9098B /* ImageAsync.swift in Sources */,
+				9ABD3AB3279DC5CB00B9098B /* API.swift in Sources */,
+				9AFB3299279C8684003DA81F /* SharedFiles.swift in Sources */,
+				9A45A32E279D7DCD00087758 /* Entity.swift in Sources */,
+				9AF349BF279C44E900F5A27D /* Apollo.swift in Sources */,
+				9AF349AE279C3F8A00F5A27D /* Yelp_GraphQLApp.swift in Sources */,
+				9A45A329279D74CD00087758 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AF349B6279C3F8B00F5A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF349B7279C3F8B00F5A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF349B9279C3F8B00F5A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yelp_GraphQL/Preview Content\"";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yelp-GraphQL-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Yelp_GraphQL would like to use photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jassak1.Yelp-GraphQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9AF349BA279C3F8B00F5A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yelp_GraphQL/Preview Content\"";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yelp-GraphQL-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Yelp_GraphQL would like to use photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jassak1.Yelp-GraphQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF349A5279C3F8A00F5A27D /* Build configuration list for PBXProject "Yelp_GraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF349B6279C3F8B00F5A27D /* Debug */,
+				9AF349B7279C3F8B00F5A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF349B8279C3F8B00F5A27D /* Build configuration list for PBXNativeTarget "Yelp_GraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF349B9279C3F8B00F5A27D /* Debug */,
+				9AF349BA279C3F8B00F5A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 0.50.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AF349C6279C4A4C00F5A27D /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		9AF349C8279C4A4C00F5A27D /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+		9AF349CA279C4A4C00F5A27D /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		9AF349CC279C4A4C00F5A27D /* ApolloUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloUtils;
+		};
+		9AF349CE279C4A4C00F5A27D /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AF349C5279C4A4C00F5A27D /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AF349A2279C3F8A00F5A27D /* Project object */;
+}
